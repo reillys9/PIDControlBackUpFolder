@@ -1,0 +1,22 @@
+
+VAR
+
+	MpAxisBasic_0 : MpAxisBasic;
+	AxisParameters : MpAxisBasicParType;
+	
+	MC_BR_TorqueControl_0 : MC_BR_TorqueControl;
+	TON_10ms_0 : TON_10ms;
+	
+	MC_ReadActualPosition_0 : MC_ReadActualPosition;
+	MC_ReadActualVelocity_0 : MC_ReadActualVelocity;
+	
+	currentTorque : REAL;
+	previousTorque : REAL;
+	
+	MTBasicsPID_0 : MTBasicsPID;
+	
+END_VAR
+
+VAR CONSTANT
+
+END_VAR
